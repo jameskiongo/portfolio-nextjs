@@ -1,3 +1,4 @@
+import NavbarMenu from "./NavbarMenu";
 import { NavbarToggle } from "./NavbarToggle";
 import { Rajdhani } from "next/font/google";
 
@@ -16,8 +17,9 @@ export default function Navbar() {
             James Kiongo
           </h1>
         </div>
-        <div className="flex items-center space-x-4">
+        <div className="flex flex-row items-center justify-center">
           <NavbarToggle />
+          <NavbarMenu />
         </div>
       </div>
     </div>
