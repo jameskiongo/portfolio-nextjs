@@ -6,6 +6,8 @@ import {
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 
+// BUG: transparency of navigation menu content
+
 export default function NavbarMenu() {
   return (
     <div className="">
