@@ -11,7 +11,7 @@ const rajdhani = Rajdhani({
 export default function Navbar() {
   return (
     <div>
-      <div className="flex items-center justify-between p-4 ">
+      <div className="flex items-center justify-between py-4">
         <div>
           <h1 className={`${rajdhani.className} text-2xl font-normal`}>
             James Kiongo
