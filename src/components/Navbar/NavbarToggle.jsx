@@ -1,25 +1,38 @@
 "use client";
 
-import * as React from "react";
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
+import { useEffect, useState } from "react";
 
 export function NavbarToggle() {
+  const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 
-  return (
-    <div>
-      <Button
-        onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-        className="cursor-pointer shadow-none"
-      >
-        {theme === "dark" ? (
-          <Moon className="size-5" />
-        ) : (
-          <Sun className="size-5" />
-        )}
+  // Ensure we only show theme-specific icons after mounting
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return (
+      <Button className="cursor-pointer shadow-none" size="icon" disabled>
+        <Sun className="size-5 opacity-0" /> {/* Invisible placeholder */}
       </Button>
-    </div>
+    );
+  }
+
+  return (
+    <Button
+      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+      className="cursor-pointer shadow-none"
+      size="icon"
+    >
+      {theme === "dark" ? (
+        <Moon className="size-5" />
+      ) : (
+        <Sun className="size-5" />
+      )}
+    </Button>
   );
 }
