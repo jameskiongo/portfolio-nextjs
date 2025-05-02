@@ -3,12 +3,7 @@ export default function TechSection() {
     <div className="mt-10">
       <h1 className="capitalize text-xl font-bold">Technologies</h1>
       <div className="flex flex-row justify-between items-center mt-3">
-        <div>
-          <h1 className="font-bold">Frontend</h1>
-        </div>
-        <div>
-          <h1 className="font-bold">Backend</h1>
-        </div>
+        <div></div>
       </div>
     </div>
   );
