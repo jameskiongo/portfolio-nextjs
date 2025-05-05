@@ -38,7 +38,7 @@ export function ProjectDialog({ project }) {
                         alt={image.alt}
                         width={800}
                         height={400}
-                        className="rounded-sm h-[400px] object-cover object-top-left bacgkground-cover background-center"
+                        className="rounded-sm md:h-[400px] h-[200px] object-cover object-top-left bacgkground-cover background-center"
                       />
                     </div>
                   </CarouselItem>

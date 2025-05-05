@@ -35,7 +35,7 @@ export default function ProjectSection() {
                         width={300}
                         height={150}
                         alt="Project Image"
-                        className="rounded-t-sm h-[150px] object-cover object-top-left bacgkground-cover background-center"
+                        className="rounded-t-sm md:h-[150px] h-[200px] w-full object-cover object-top-left bacgkground-cover background-center"
                       />
                     </div>
                     <div className="flex flex-col justify-center h-full p-2">
