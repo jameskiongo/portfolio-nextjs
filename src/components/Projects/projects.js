@@ -9,6 +9,13 @@ import client_care_enroll_program from "@/assets/images/client-care/enroll_to_pr
 import client_care_enroll_patient from "@/assets/images/client-care/enroll_patient.png";
 import client_care_enroll_patient_2 from "@/assets/images/client-care/enroll_patient_2.png";
 
+import trackani_login from "@/assets/images/trackani/login.png";
+import trackani_register from "@/assets/images/trackani/sign_up_page.png";
+import trackani_top_anime from "@/assets/images/trackani/top_anime_page.png";
+import trackani_anime_details from "@/assets/images/trackani/individual_anime.png";
+import trackani_home from "@/assets/images/trackani/home_page.png";
+import trackani_search_anime from "@/assets/images/trackani/search_page.png";
+
 export const projects = [
   {
     id: 1,
@@ -131,7 +138,52 @@ export const projects = [
       " A web application for tracking and managing your anime.",
     long_description:
       "A web application for tracking and managing your anime. Users can create an account, add anime to their watchlist, and mark them as watched. ",
-    banner: client_care_landing,
-    github_link: "",
+    banner: trackani_home,
+    github_link: "https://github.com/jameskiongo/trackani",
+    short_tags: [
+      { id: 1, name: "Django" },
+      { id: 2, name: "ReactJs" },
+    ],
+    all_tags: [
+      { id: 1, name: "Django" },
+      { id: 3, name: "Django rest framework" },
+      { id: 2, name: "ReactJs" },
+      { id: 7, name: "RTK Query" },
+      { id: 4, name: "Sqlite" },
+      { id: 5, name: "Tailwind Css" },
+      { id: 6, name: "Preline UI" },
+    ],
+    gallery: [
+      {
+        id: 1,
+        src: trackani_login,
+        alt: "Trackani Login",
+      },
+      {
+        id: 2,
+        src: trackani_register,
+        alt: "Trackani Register",
+      },
+      {
+        id: 3,
+        src: trackani_top_anime,
+        alt: "Trackani Top Anime",
+      },
+      {
+        id: 4,
+        src: trackani_search_anime,
+        alt: "Trackani Search Anime",
+      },
+      {
+        id: 5,
+        src: trackani_anime_details,
+        alt: "Trackani Individual Anime",
+      },
+      {
+        id: 6,
+        src: client_care_new_patient,
+        alt: "Client Care New Patient Registration",
+      },
+    ],
   },
 ];

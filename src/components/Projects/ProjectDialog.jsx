@@ -32,13 +32,13 @@ export function ProjectDialog({ project }) {
               <CarouselContent>
                 {project.gallery.map((image, index) => (
                   <CarouselItem key={index}>
-                    <div>
+                    <div className=" w-full flex items-center justify-center">
                       <Image
                         src={image.src}
                         alt={image.alt}
                         width={800}
-                        height={50}
-                        className="rounded-sm"
+                        height={400}
+                        className="rounded-sm h-[400px] object-cover object-top-left bacgkground-cover background-center"
                       />
                     </div>
                   </CarouselItem>

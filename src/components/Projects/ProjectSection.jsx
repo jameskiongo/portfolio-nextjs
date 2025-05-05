@@ -33,9 +33,9 @@ export default function ProjectSection() {
                       <Image
                         src={project.banner}
                         width={300}
-                        height={50}
+                        height={150}
                         alt="Project Image"
-                        className="rounded-t-sm"
+                        className="rounded-t-sm h-[150px] object-cover object-top-left bacgkground-cover background-center"
                       />
                     </div>
                     <div className="flex flex-col justify-center h-full p-2">
