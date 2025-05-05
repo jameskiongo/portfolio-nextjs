@@ -1,11 +1,13 @@
 import Navbar from "@/components/Navbar";
 import ProfileSection from "@/components/Profile";
+import ProjectSection from "@/components/Projects";
 import TechSection from "@/components/technologies";
 export default function Home() {
   return (
     <div className="py-5 md:px-0 px-2">
       <Navbar />
       <ProfileSection />
+      <ProjectSection />
       <TechSection />
     </div>
   );

@@ -33,20 +33,19 @@ export default function ProfileSection() {
             <p
               className={`${ibm_plex_sans.className} text-sm font-light text-center md:text-start`}
             >
-              a full stack engineer using Django or Flask for backend
-              development, MongoDB or MySQL for databases, and React for the
-              frontend.
+              a full stack developer using Django for backend development,
+              MongoDB or MySQL for databases, and React for the frontend.
             </p>
             <div className="flex flex-row items-center justify-between gap-y-1 mt-2">
               <p className="text-xs">Nairobi, Kenya</p>
               <div className="flex flex-row gap-x-4">
-                <a href="">
+                <a href="https://github.com/jameskiongo">
                   <GithubIcon />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/jameskiongo/">
                   <LinkedinIcon />
                 </a>
-                <a href="">
+                <a href="mailto:njihiakiongo@gmail.com">
                   <MailIcon />
                 </a>
               </div>
