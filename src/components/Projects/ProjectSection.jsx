@@ -46,7 +46,7 @@ export default function ProjectSection() {
                         <div>
                           {/* <GithubIcon /> */}
                           <button className="cursor-pointer">
-                            <ProjectDialog />
+                            <ProjectDialog project={project} key={project.id} />
                           </button>
                         </div>
                       </div>
