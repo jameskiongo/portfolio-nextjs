@@ -6,6 +6,14 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import { Card, CardContent } from "@/components/ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 import Image from "next/image";
 import { Expand } from "lucide-react";
 import { GithubIcon } from "../icons/GithubIcon";
@@ -19,15 +27,33 @@ export function ProjectDialog({ project }) {
       </DialogTrigger>
       <DialogContent className="w-screen max-w-none rounded-none sm:rounded-lg sm:w-[90vw] sm:max-w-[425px] md:max-w-[700px] bg-warning text-warning-foreground">
         <div className="p-4 sm:p-6">
-          <div className="flex flex-col items-center justify-center">
-            <Image src={project.banner} width={500} height={500} alt="image" />
+          <div className="p-2 flex flex-col items-center justify-center">
+            <Carousel className="w-full">
+              <CarouselContent>
+                {project.gallery.map((image, index) => (
+                  <CarouselItem key={index}>
+                    <div>
+                      <Image
+                        src={image.src}
+                        alt={image.alt}
+                        width={800}
+                        height={50}
+                        className="rounded-sm"
+                      />
+                    </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="border-none" />
+              <CarouselNext className="border-none" />
+            </Carousel>
           </div>
           <DialogHeader className="text-left pt-4">
             <DialogTitle className="text-xl sm:text-2xl">
               <div className="flex flex-row items-center justify-between">
                 <p className="text-3xl font-extrabold"> {project.title}</p>
                 <div>
-                  <a href={project.github_link}>
+                  <a href={project.github_link} target="_blank">
                     <GithubIcon />
                   </a>
                 </div>
