@@ -1,4 +1,4 @@
-import { Instagram, Twitter } from "lucide-react";
+import { Twitter } from "lucide-react";
 import { LinkedinIcon } from "../icons/LinkedinIcon";
 import { MailIcon } from "../icons/MailIcon";
 import { GithubIcon } from "../icons/GithubIcon";
@@ -6,8 +6,8 @@ import { GithubIcon } from "../icons/GithubIcon";
 export default function ContactSection() {
   return (
     <div className="mt-10">
-      <h1 className="capitalize text-xl font-bold">Contact</h1>
-      <div className="flex flex-row justify-between items-center mt-3">
+      <h1 className="capitalize text-xl font-bold pb-5">Contact</h1>
+      <div className="flex md:flex-row flex-col justify-between md:items-center items-start gap-4">
         <div className="hover:cursor-pointer hover:underline">
           <a
             href="mailto:njihiakiongo@gmail.com"
