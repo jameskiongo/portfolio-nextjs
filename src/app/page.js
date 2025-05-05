@@ -1,3 +1,4 @@
+import ContactSection from "@/components/Contact";
 import Navbar from "@/components/Navbar";
 import ProfileSection from "@/components/Profile";
 import ProjectSection from "@/components/Projects";
@@ -9,6 +10,7 @@ export default function Home() {
       <ProfileSection />
       <ProjectSection />
       <TechSection />
+      <ContactSection />
     </div>
   );
 }
