@@ -9,6 +9,14 @@ import client_care_enroll_program from "@/assets/images/client-care/enroll_to_pr
 import client_care_enroll_patient from "@/assets/images/client-care/enroll_patient.png";
 import client_care_enroll_patient_2 from "@/assets/images/client-care/enroll_patient_2.png";
 
+import blog_landing from "@/assets/images/blog-app/landing.png";
+import blog_login from "@/assets/images/blog-app/login.png";
+import blog_register from "@/assets/images/blog-app/register.png";
+import blog_profile from "@/assets/images/blog-app/profile.png";
+import blog_create_post from "@/assets/images/blog-app/add_post.png";
+import blog_view_post from "@/assets/images/blog-app/individual_post.png";
+import blog_home from "@/assets/images/blog-app/home_page.png";
+
 import trackani_login from "@/assets/images/trackani/login.png";
 import trackani_register from "@/assets/images/trackani/sign_up_page.png";
 import trackani_top_anime from "@/assets/images/trackani/top_anime_page.png";
@@ -98,7 +106,7 @@ export const projects = [
       "This web application allows users to create, view, edit, and manage blog posts and comments. Users can also view and update their profiles.",
     short_description:
       " A web application for creating and managing blog posts.",
-    banner: client_care_landing,
+    banner: blog_landing,
     github_link: "https://github.com/jameskiongo/blog-app",
     short_tags: [
       { id: 1, name: "Django" },
@@ -116,18 +124,33 @@ export const projects = [
     gallery: [
       {
         id: 1,
-        src: client_care_login,
-        alt: "Client Care Login",
+        src: blog_login,
+        alt: "BlogApp Login",
       },
       {
         id: 2,
-        src: client_care_patients,
-        alt: "Client Care Patients Dashboard",
+        src: blog_register,
+        alt: "BlogApp Register",
       },
       {
         id: 3,
-        src: client_care_programs,
-        alt: "Client Care Programs Dashboard",
+        src: blog_home,
+        alt: "BlogApp Home Page",
+      },
+      {
+        id: 4,
+        src: blog_profile,
+        alt: "BlogApp Profile Page",
+      },
+      {
+        id: 5,
+        src: blog_create_post,
+        alt: "BlogApp Create Post",
+      },
+      {
+        id: 6,
+        src: blog_view_post,
+        alt: "BlogApp Individual Post",
       },
     ],
   },
