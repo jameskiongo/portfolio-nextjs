@@ -18,7 +18,6 @@ export const projects = [
       "A streamlined health program management system designed for healthcare providers to efficiently register clients, enroll them in various health programs, and manage their profiles. The system offers secure API endpoints for seamless integration with other platforms, ensuring accurate tracking and improved coordination of healthcare services.",
     banner: client_care_landing,
     github_link: "https://github.com/jameskiongo/client-care",
-    link: "https://example.com/project1",
     short_tags: [
       { id: 1, name: "Django" },
       { id: 2, name: "ReactJs" },
@@ -84,5 +83,55 @@ export const projects = [
         alt: "Client Care Enroll Patient 2",
       },
     ],
+  },
+  {
+    id: 2,
+    title: "BlogApp",
+    long_description:
+      "This web application allows users to create, view, edit, and manage blog posts and comments. Users can also view and update their profiles.",
+    short_description:
+      " A web application for creating and managing blog posts.",
+    banner: client_care_landing,
+    github_link: "https://github.com/jameskiongo/blog-app",
+    short_tags: [
+      { id: 1, name: "Django" },
+      { id: 2, name: "ReactJs" },
+    ],
+    all_tags: [
+      { id: 1, name: "Django" },
+      { id: 3, name: "Django rest framework" },
+      { id: 2, name: "ReactJs" },
+      { id: 7, name: "Redux" },
+      { id: 4, name: "Sqlite" },
+      { id: 5, name: "Tailwind Css" },
+      { id: 6, name: "Daisy UI" },
+    ],
+    gallery: [
+      {
+        id: 1,
+        src: client_care_login,
+        alt: "Client Care Login",
+      },
+      {
+        id: 2,
+        src: client_care_patients,
+        alt: "Client Care Patients Dashboard",
+      },
+      {
+        id: 3,
+        src: client_care_programs,
+        alt: "Client Care Programs Dashboard",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Trackani",
+    short_description:
+      " A web application for tracking and managing your anime.",
+    long_description:
+      "A web application for tracking and managing your anime. Users can create an account, add anime to their watchlist, and mark them as watched. ",
+    banner: client_care_landing,
+    github_link: "",
   },
 ];
