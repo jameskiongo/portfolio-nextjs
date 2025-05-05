@@ -1,3 +1,4 @@
+"use client";
 import * as React from "react";
 import { Card } from "@/components/ui/card";
 import landing from "@/assets/images/client-care/landing.png";
@@ -11,9 +12,11 @@ import {
 } from "@/components/ui/carousel";
 import { Badge } from "@/components/ui/badge";
 import { Expand } from "lucide-react";
+import { useState } from "react";
 import { ProjectDialog } from "./ProjectDialog";
 
 export default function ProjectSection() {
+  const [open, setOpen] = useState(false);
   return (
     <div className="flex flex-col justify-center w-full h-full mt-10">
       <h1 className="capitalize text-xl font-bold pb-5">Projects</h1>
@@ -38,7 +41,7 @@ export default function ProjectSection() {
                       <div>
                         {/* <GithubIcon /> */}
                         <button className="cursor-pointer">
-                          <Expand className="" size={16} />
+                          <ProjectDialog />
                         </button>
                       </div>
                     </div>
@@ -62,7 +65,6 @@ export default function ProjectSection() {
           <CarouselNext />
         </Carousel>
       </div>
-      <ProjectDialog />
     </div>
   );
 }

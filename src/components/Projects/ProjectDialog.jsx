@@ -10,12 +10,13 @@ import {
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { Expand } from "lucide-react";
 
 export function ProjectDialog() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="outline">Register</Button>
+        <Expand className="" size={16} />
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
@@ -38,9 +39,6 @@ export function ProjectDialog() {
             <Input type="email" id="email" className="col-span-3" />
           </div>
         </div>
-        <DialogFooter>
-          <Button type="submit">Save changes</Button>
-        </DialogFooter>
       </DialogContent>
     </Dialog>
   );
