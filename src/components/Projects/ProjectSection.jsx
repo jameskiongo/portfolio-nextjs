@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/carousel";
 import { Badge } from "@/components/ui/badge";
 import { Expand } from "lucide-react";
+import { ProjectDialog } from "./ProjectDialog";
 
 export default function ProjectSection() {
   return (
@@ -61,6 +62,7 @@ export default function ProjectSection() {
           <CarouselNext />
         </Carousel>
       </div>
+      <ProjectDialog />
     </div>
   );
 }

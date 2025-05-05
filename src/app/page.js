@@ -4,7 +4,7 @@ import ProjectSection from "@/components/Projects";
 import TechSection from "@/components/technologies";
 export default function Home() {
   return (
-    <div className="py-5 md:px-0 px-2">
+    <div className="max-w-2xl mx-auto py-5 md:px-0 px-2">
       <Navbar />
       <ProfileSection />
       <ProjectSection />
