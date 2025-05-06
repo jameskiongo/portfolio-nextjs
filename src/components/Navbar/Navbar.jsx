@@ -8,6 +8,7 @@ const rajdhani = Rajdhani({
   subsets: ["latin"],
 });
 
+// TODO: Add Cv link
 export default function Navbar() {
   return (
     <div>
@@ -18,6 +19,15 @@ export default function Navbar() {
           </h1>
         </div>
         <div className="flex flex-row items-center justify-center">
+          <div className="flex md:hidden flex-row items-center gap-10 px-2">
+            <a
+              href="https://drive.google.com/file/d/1v0q2g3r7x4X5z6f8e5f8e5f8e5f8e5f/view?usp=sharing"
+              target="_blank"
+              className="text-[20px] font-normal hover:underline"
+            >
+              CV
+            </a>
+          </div>
           <NavbarToggle />
           <NavbarMenu />
         </div>

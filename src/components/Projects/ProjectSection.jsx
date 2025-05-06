@@ -1,7 +1,6 @@
 "use client";
 import * as React from "react";
 import { Card } from "@/components/ui/card";
-import landing from "@/assets/images/client-care/landing.png";
 import Image from "next/image";
 import {
   Carousel,
@@ -10,7 +9,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Badge } from "@/components/ui/badge";
 import { projects } from "./projects";
 import { ProjectDialog } from "./ProjectDialog";
 import { TechnologyBadge } from "./TechnologyBadge";
