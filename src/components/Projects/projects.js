@@ -9,6 +9,8 @@ import client_care_enroll_program from "@/assets/images/client-care/enroll_to_pr
 import client_care_enroll_patient from "@/assets/images/client-care/enroll_patient.png";
 import client_care_enroll_patient_2 from "@/assets/images/client-care/enroll_patient_2.png";
 
+import portfolio_home_page from "@/assets/images/portfolio/test.png";
+
 import blog_landing from "@/assets/images/blog-app/landing.png";
 import blog_login from "@/assets/images/blog-app/login.png";
 import blog_register from "@/assets/images/blog-app/register.png";
@@ -101,6 +103,31 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Portfolio",
+    short_description: "My personal portfolio website built with Next.js.",
+    long_description:
+      "My personal portfolio website built with Next.js and Tailwind CSS.",
+    banner: portfolio_home_page,
+    github_link: "",
+    short_tags: [
+      { id: 1, name: "NextJs" },
+      { id: 2, name: "Tailwind Css" },
+    ],
+    all_tags: [
+      { id: 1, name: "NextJs" },
+      { id: 2, name: "Tailwind Css" },
+      { id: 3, name: "Shadcn UI" },
+    ],
+    gallery: [
+      {
+        id: 1,
+        src: portfolio_home_page,
+        alt: "Portfolio Home Page",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "BlogApp",
     long_description:
       "This web application allows users to create, view, edit, and manage blog posts and comments. Users can also view and update their profiles.",
@@ -155,7 +182,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Trackani",
     short_description:
       " A web application for tracking and managing your anime.",
