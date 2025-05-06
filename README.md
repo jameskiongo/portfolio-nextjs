@@ -2,7 +2,7 @@
 
 My personal portfolio website built with Next.js and Tailwind CSS.
 
-[View Live Site](https://your-portfolio-url.com)
+[View Live Site](https://kiongo.vercel.app/)
 
 ## Tech Stack
 
