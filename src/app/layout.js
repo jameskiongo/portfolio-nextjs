@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Head from "next/head";
 import "./globals.css";
 import ThemeProvider from "@/components/ThemeProvider";
 
@@ -15,6 +16,19 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "James Kiongo",
   description: "Created by James Kiongo",
+  icons: {
+    icon: [
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", rel: "shortcut icon" },
+      {
+        url: "/apple-touch-icon.png",
+        rel: "apple-touch-icon",
+        sizes: "180x180",
+      },
+    ],
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({ children }) {
