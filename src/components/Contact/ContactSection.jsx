@@ -5,7 +5,7 @@ import { GithubIcon } from "../icons/GithubIcon";
 
 export default function ContactSection() {
   return (
-    <div className="mt-10">
+    <div className="mt-10 px-4 sm:px-0">
       <h1 className="capitalize text-xl font-bold pb-5">Contact</h1>
       <div className="flex md:flex-row flex-col justify-between md:items-center items-start gap-4">
         <div className="hover:cursor-pointer hover:underline">

@@ -13,7 +13,7 @@ const ibm_plex_sans = IBM_Plex_Sans({
 });
 export default function ProfileSection() {
   return (
-    <div className="mt-10">
+    <div className="mt-10 px-4 sm:px-0">
       <div className="flex md:flex-row-reverse flex-col gap-x-6">
         <div className="md:basis-1/5 basis-2/5">
           <div className="flex flex-col items-center justify-center h-full">

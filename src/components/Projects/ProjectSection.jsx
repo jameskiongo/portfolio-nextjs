@@ -15,7 +15,7 @@ import { TechnologyBadge } from "./TechnologyBadge";
 
 export default function ProjectSection() {
   return (
-    <div className="flex flex-col justify-center w-full h-full mt-10">
+    <div className="flex flex-col justify-center w-full h-full mt-10 px-4 sm:px-0">
       <h1 className="capitalize text-xl font-bold pb-5">Projects</h1>
       <div className="w-full">
         <Carousel className="w-full ">
@@ -62,8 +62,8 @@ export default function ProjectSection() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          <CarouselPrevious className="hidden md:flex" />
+          <CarouselNext className="hidden md:flex" />
         </Carousel>
       </div>
     </div>
