@@ -18,7 +18,7 @@ export default function Navbar() {
           </h1>
         </div>
         <div className="flex flex-row items-center justify-center">
-          <div className="flex md:hidden flex-row items-center gap-10 px-2">
+          <div className="flex flex-row items-center gap-10 px-2">
             <a
               href="/documents/james-cv-main.pdf"
               target="_blank"
