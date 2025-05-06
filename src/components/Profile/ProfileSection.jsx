@@ -34,7 +34,7 @@ export default function ProfileSection() {
               </h1>
               <div className="hidden md:flex flex-row items-center gap-10 px-2">
                 <a
-                  href="https://drive.google.com/file/d/1v0q2g3r7x4X5z6f8e5f8e5f8e5f8e5f/view?usp=sharing"
+                  href="/documents/james-cv-main.pdf"
                   target="_blank"
                   className="text-xs italic font-extralight hover:underline"
                 >
