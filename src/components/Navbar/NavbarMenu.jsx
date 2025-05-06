@@ -19,7 +19,7 @@ export default function NavbarMenu() {
                   Projects
                 </a>
                 <a href="#techstack" className="">
-                  Technologies
+                  Tech Stack
                 </a>
                 <a href="#contact" className="">
                   Contact
