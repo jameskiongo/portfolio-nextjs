@@ -108,7 +108,7 @@ export const projects = [
     long_description:
       "My personal portfolio website built with Next.js and Tailwind CSS.",
     banner: portfolio_home_page,
-    github_link: "",
+    github_link: "https://github.com/jameskiongo/portfolio-nextjs",
     short_tags: [
       { id: 1, name: "NextJs" },
       { id: 2, name: "Tailwind Css" },
