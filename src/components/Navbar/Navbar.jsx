@@ -8,7 +8,6 @@ const rajdhani = Rajdhani({
   subsets: ["latin"],
 });
 
-// TODO: Add Cv link
 export default function Navbar() {
   return (
     <div>
