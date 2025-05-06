@@ -15,13 +15,13 @@ export default function NavbarMenu() {
             <NavigationMenuTrigger />
             <NavigationMenuContent className="bg-warning text-warning-foreground">
               <div className="w-[150px] p-5 gap-y-2 flex flex-col items-center justify-center">
-                <a href="#" className="">
-                  Technologies
-                </a>
-                <a href="#" className="">
+                <a href="#projects" className="">
                   Projects
                 </a>
-                <a href="#" className="">
+                <a href="#techstack" className="">
+                  Technologies
+                </a>
+                <a href="#contact" className="">
                   Contact
                 </a>
               </div>
