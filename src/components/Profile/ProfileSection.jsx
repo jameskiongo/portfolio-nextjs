@@ -32,7 +32,7 @@ export default function ProfileSection() {
               <h1 className="font-bold text-3xl md:text-start text-center">
                 Hi, I'm James Kiongo,
               </h1>
-              <div className="hidden md:flex flex-row items-center gap-10 px-2">
+              <div className="hidden sm:flex flex-row items-center gap-10 px-2">
                 <a
                   href="/documents/james-cv-main.pdf"
                   target="_blank"
