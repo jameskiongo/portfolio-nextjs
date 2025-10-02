@@ -32,20 +32,7 @@ export default function ProfileSection() {
 							<h1 className="font-bold text-3xl md:text-start text-center">
 								Hi, I'm James Kiongo,
 							</h1>
-							{/* <div className="flex sm:flex-row flex-row-reverse"> */}
-							{/*   <a */}
-							{/*     href="/documents/james-cv-main.pdf" */}
-							{/*     target="_blank" */}
-							{/*     className="text-xs italic font-extralight hover:underline" */}
-							{/*   > */}
-							{/*     <div className="flex flex-row items-center gap-1"> */}
-							{/*       Resume */}
-							{/*       <Download className="ml-1 size-5" /> */}
-							{/*     </div> */}
-							{/*   </a> */}
-							{/* </div> */}
 						</div>
-
 						<p
 							className={`${ibm_plex_sans.className} text-sm font-light text-center md:text-start`}
 						>
