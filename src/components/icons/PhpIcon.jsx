@@ -2,7 +2,9 @@ export function PhpIcon() {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
-			className="size-5"
+			// className="size-5"
+			width={24}
+			height={24}
 			viewBox="0 0 128 128"
 		>
 			<path

@@ -34,7 +34,7 @@ export default function ExperienceSection() {
 					designing, developing, and customizing websites for a diverse range of
 					clients
 				</p>
-				<div className="flex flex-row gap-x-2">
+				<div className="flex flex-row gap-x-3">
 					<WordpressIcon />
 					<PhpIcon />
 					<JsIcon />
