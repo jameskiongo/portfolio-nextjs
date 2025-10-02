@@ -1,4 +1,7 @@
 import { IBM_Plex_Sans } from "next/font/google";
+import { JsIcon } from "../icons/JsIcon";
+import { PhpIcon } from "../icons/PhpIcon";
+import { WordpressIcon } from "../icons/WordpressIcon";
 
 const ibm_plex_sans = IBM_Plex_Sans({
 	weight: ["400", "500", "600", "700"],
@@ -8,8 +11,34 @@ const ibm_plex_sans = IBM_Plex_Sans({
 export default function ExperienceSection() {
 	return (
 		<div className="mt-10 px-4 sm:px-0">
-			<div className="flex md:flex-row-reverse flex-col gap-x-6">
-				Experience section
+			<div>
+				<h1 className="capitalize text-xl font-bold pb-5">experience</h1>
+			</div>
+			<div className="">
+				<div className="flex flex-row items-center justify-between">
+					<h1 className="capitalize text-2xl font-bold">wordpress developer</h1>
+					<p className="capitalize font-extralight italic text-sm justify-center">
+						Sep 2022 - July 2025
+					</p>
+				</div>
+				<div className="flex flex-row items-center justify-between">
+					<h1 className="capitalize font-light text-lg">the sylvia system</h1>
+					<p className="capitalize italic text-sm font-extralight justify-center">
+						remote
+					</p>
+				</div>
+			</div>
+			<div>
+				<p className="text-xs font-normal py-1">
+					WordPress Developer at a real estate marketing sector, responsible for
+					designing, developing, and customizing websites for a diverse range of
+					clients
+				</p>
+				<div className="flex flex-row gap-x-2">
+					<WordpressIcon />
+					<PhpIcon />
+					<JsIcon />
+				</div>
 			</div>
 		</div>
 	);
