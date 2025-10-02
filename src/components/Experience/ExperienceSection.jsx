@@ -10,7 +10,7 @@ const ibm_plex_sans = IBM_Plex_Sans({
 });
 export default function ExperienceSection() {
 	return (
-		<div className="mt-10 px-4 sm:px-0">
+		<div id="experience" className="mt-10 px-4 sm:px-0">
 			<div>
 				<h1 className="capitalize text-xl font-bold pb-5">experience</h1>
 			</div>
