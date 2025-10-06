@@ -22,7 +22,7 @@ export default function Navbar() {
 						<a
 							href="/documents/james-cv.pdf"
 							target="_blank"
-							className="text-[20px] font-normal hover:underline"
+							className="text-[20px] font-normal"
 							rel="noopener"
 						>
 							CV

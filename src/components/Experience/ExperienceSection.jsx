@@ -1,13 +1,7 @@
-import { IBM_Plex_Sans } from "next/font/google";
 import { JsIcon } from "../icons/JsIcon";
 import { PhpIcon } from "../icons/PhpIcon";
 import { WordpressIcon } from "../icons/WordpressIcon";
 
-const ibm_plex_sans = IBM_Plex_Sans({
-	weight: ["400", "500", "600", "700"],
-	style: ["normal"],
-	subsets: ["latin"],
-});
 export default function ExperienceSection() {
 	return (
 		<div id="experience" className="mt-10 px-4 sm:px-0">
