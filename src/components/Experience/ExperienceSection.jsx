@@ -1,10 +1,13 @@
 import { JsIcon } from "../icons/JsIcon";
 import { PhpIcon } from "../icons/PhpIcon";
 import { WordpressIcon } from "../icons/WordpressIcon";
+import { experiences } from "./experiences";
 
 export default function ExperienceSection() {
 	return (
 		<div id="experience" className="mt-10 px-4 sm:px-0">
+			{/* {experiences.map((experience) =>( */}
+			{/* )) } */}
 			<div>
 				<h1 className="capitalize text-xl font-bold pb-5">experience</h1>
 			</div>

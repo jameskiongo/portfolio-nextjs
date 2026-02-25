@@ -30,13 +30,13 @@ export default function ProfileSection() {
 					<div className="flex flex-col gap-y-2 h-full justify-center ">
 						<div className="flex md:flex-row flex-col items-center justify-between gap-y-2">
 							<h1 className="font-bold text-3xl md:text-start text-center">
-								Hi, I'm James Kiongo,
+								Hi, I'm James,
 							</h1>
 						</div>
 						<p
 							className={`${ibm_plex_sans.className} text-sm font-light text-center md:text-start`}
 						>
-							a full stack developer using Django for backend development,
+							A full stack developer using Django for backend development,
 							MongoDB or MySQL for databases, and React for the frontend.
 						</p>
 						<div className="flex flex-row items-center justify-between gap-y-1 mt-2">
